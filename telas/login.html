@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <link rel="icon" type="image/png" href="imgs/icon/ground-zero-2014135_1920.jpg">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="login.css">
+</head>
+<body>
+    <div class="container">
+        <form>
+            <h1>Faça seu login</h1>
+            <p class="subtitle">Entre com suas informações de cadastro</p> 
+            <p>
+                <label>CPF:</label>
+                <input type="text" id="cpf" name="cpf" maxlength="11" required>
+            </p>
+            <p>
+                <label>Senha:</label>
+                <input type="password" id="senha" name="senha" required>
+            </p>
+            <h4><a href="cadastro.html">Não tem uma conta? Cadastre-se</a></h4>
+            <div id="erros" class="erros"></div>
+            <button type="button" class="botaoAzul" onclick="login()">Entrar</button>
+        </form>
+    </div>
+    <link rel="stylesheet" href="login.css">
+    <script src="index.js"></script>
+</body>
+</html>
